@@ -7,14 +7,15 @@ public class OperatorPerson
 	private int lifePoint;
 	private	int ammo;
 	
-	public OperatorPerson(String name, int lifePoint, int ammo) {
-		
-		this.name = name;
-		this.lifePoint = lifePoint;
-		this.ammo = ammo;
+	public OperatorPerson(int i) {
 		
 	}
-	
+
+	public OperatorPerson()
+	{
+		// TODO Auto-generated constructor stub
+	}
+
 	public void getName(String name) {
 		this.name = name;
 	}
@@ -37,5 +38,5 @@ public class OperatorPerson
 	
 	public int ammo() {
 		return ammo;
-	}
+		}
 }
