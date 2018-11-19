@@ -1,12 +1,13 @@
 package controller;
 
+//------------------------------IMPORT STATMENTS------------------------
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 import model.OperatorPerson;
-
+//------------------------------IMPORT STATMENTS------------------------
 
 public class ChoiceController
 {
